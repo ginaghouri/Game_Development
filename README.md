@@ -1,4 +1,6 @@
-First I open CMD 
+🤹‍♀️ PyGame Running Instructions: 
+
+Open CMD on your computer
 Then copy the folder path
 and use the command 'cd /d <game folder path here>'
 then write "python main.py"
