@@ -1,6 +1,0 @@
-First I opened CMD (Parancscor)
-Then I copied the folder path
-and used the command 'cd /d <game folder path here>'
-then i used "python main.py"
-it gave an error "pygame is not defined" or something like that, it means pygame is not installed
-to install pygame I used "pip install pygame" in cmd
