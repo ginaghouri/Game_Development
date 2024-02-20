@@ -13,22 +13,20 @@ Key Parts:
 * **functions...:** custom functions containing reusable logic.
   
 **Classes**
-* **App:** The core game class. It manages the game loop, handles game states, and coordinates different elements.
-* **Player:** Represents the player-controlled character.
-* **Timer:** Keeps track of game time.
-* **Collectable:** Represents items the player can collect (likely different types).
+* **App:** core game class which manages the game loop, handles game states, and coordinates different elements.
+* **Player:** represents the player-controlled character.
+* **Timer:** keeps track of game time.
+* **Collectable:** represents different items the player can collect.
 
 **Key Functions**
 
-* **controls:** Processes player input for movement and actions.
-* **random_spawn:** Generates random positions for spawning items.
-* **collect_collectable:** Handles collision detection and the effects of collecting items.
-* **render\_...:** Functions for drawing various elements on the screen.
-* **draw\_...:** Additional drawing utility functions.
+* **controls:** processes player input for movement and actions.
+* **random_spawn:** generates random positions for spawning items.
+* **collect_collectable:** handles collision detection and the effects of collecting items.
+* **render\_...:** functions for drawing various elements on the screen.
+* **draw\_...:** additional drawing utility functions.
 
 **The 'App' Class**
-
-Let's analyze the  `App` class in more detail:
 
 * **__init__(self):**
    - Sets up initial game variables like  `running`, `game_state`.
