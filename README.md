@@ -2,6 +2,7 @@ Overall Game Structure
 
 This code lays the foundation for a simple game where the player navigates a character to collect items while avoiding obstacles.
 Key Parts:
+
 **Imports**
 * **os:** provides tools to interact with the operating system (finding file paths).
 * **pygame:** a popular library for creating games and multimedia applications.
