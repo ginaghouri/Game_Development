@@ -1,19 +1,17 @@
 Overall Game Structure
 
-This code lays the foundation for a simple game, likely one where the player navigates a character to collect items while avoiding obstacles. Let's explore its key parts:
-
-Imports
-
-* **os:** Provides tools to interact with the operating system (finding file paths).
-* **pygame:** A popular library for creating games and multimedia applications.
-* **uuid:** Used for generating unique identifiers for game objects.
-* **math:** Might be used for calculations regarding movement or positioning.
-* **enums.GameState:** Likely a custom file defining different game states (e.g., MAIN, PLAY, PAUSE).
-* **classes...:** Custom classes defining the behavior of in-game entities.
-* **functions...:** Custom functions containing reusable logic.
-
+This code lays the foundation for a simple game where the player navigates a character to collect items while avoiding obstacles.
+Key Parts:
+**Imports**
+* **os:** provides tools to interact with the operating system (finding file paths).
+* **pygame:** a popular library for creating games and multimedia applications.
+* **uuid:** used for generating unique identifiers for game objects.
+* **math:** for calculations regarding movement or positioning.
+* **enums.GameState:** a custom file defining different game states (e.g., MAIN, PLAY, PAUSE).
+* **classes...:** custom classes defining the behavior of in-game entities.
+* **functions...:** custom functions containing reusable logic.
+  
 **Classes**
-
 * **App:** The core game class. It manages the game loop, handles game states, and coordinates different elements.
 * **Player:** Represents the player-controlled character.
 * **Timer:** Keeps track of game time.
