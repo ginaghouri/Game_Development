@@ -62,7 +62,7 @@ Let's analyze the  `App` class in more detail:
   -  Cleans up Pygame resources before the game quits.
 
 
-**Gameplay Scenarios **
+🤹‍♀️🤹‍♂️Gameplay Scenarios
 
 * **Main Menu:**  The game likely starts with a simple menu. The `game_state` would be 'MAIN' at this point.
 * **Gameplay:** When the player starts, the `game_state` switches to 'PLAY'. The player controls a character to move around.
