@@ -4,8 +4,8 @@ This code lays the foundation for a simple game, likely one where the player nav
 
 Imports
 
-* os: Provides tools to interact with the operating system (finding file paths).
-* pygame: A popular library for creating games and multimedia applications.
+* **os:** Provides tools to interact with the operating system (finding file paths).
+* **pygame:** A popular library for creating games and multimedia applications.
 * **uuid:** Used for generating unique identifiers for game objects.
 * **math:** Might be used for calculations regarding movement or positioning.
 * **enums.GameState:** Likely a custom file defining different game states (e.g., MAIN, PLAY, PAUSE).
@@ -105,11 +105,7 @@ Let's analyze the  `App` class in more detail:
 
 2. **Unit Tests:** Consider writing unit tests (especially if you refactor code into smaller functions) to ensure changes don't break existing functionality.
 
-
- 
-
-
-🤹‍♀️ PyGame Running Instructions: 
+🤹‍♀️ Running Instructions: 
 
 Open CMD on your computer
 then copy the folder path
